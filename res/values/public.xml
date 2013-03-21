@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <public id="0x7f020000" name="ic_launcher" type="drawable" />
+    <public id="0x7f030000" name="activity_main" type="layout" />
+    <public id="0x7f040000" name="black" type="color" />
+    <public id="0x7f040001" name="blue" type="color" />
+    <public id="0x7f040002" name="cyan" type="color" />
+    <public id="0x7f040003" name="dkgray" type="color" />
+    <public id="0x7f040004" name="gray" type="color" />
+    <public id="0x7f040005" name="green" type="color" />
+    <public id="0x7f040006" name="ltgray" type="color" />
+    <public id="0x7f040007" name="magenta" type="color" />
+    <public id="0x7f040008" name="red" type="color" />
+    <public id="0x7f040009" name="transparent" type="color" />
+    <public id="0x7f04000a" name="darkgray" type="color" />
+    <public id="0x7f04000b" name="yellow" type="color" />
+    <public id="0x7f04000c" name="white" type="color" />
+    <public id="0x7f050000" name="activity_horizontal_margin" type="dimen" />
+    <public id="0x7f050001" name="activity_vertical_margin" type="dimen" />
+    <public id="0x7f060000" name="app_name" type="string" />
+    <public id="0x7f060001" name="action_settings" type="string" />
+    <public id="0x7f060002" name="hello_world" type="string" />
+    <public id="0x7f070000" name="AppBaseTheme" type="style" />
+    <public id="0x7f070001" name="AppTheme" type="style" />
+    <public id="0x7f080000" name="main" type="menu" />
+    <public id="0x7f090000" name="textView1" type="id" />
+    <public id="0x7f090001" name="recProgress" type="id" />
+    <public id="0x7f090002" name="testbtn" type="id" />
+    <public id="0x7f090003" name="recbtn" type="id" />
+    <public id="0x7f090004" name="action_settings" type="id" />
+
+</resources>

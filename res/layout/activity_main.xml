@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ltgray"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <ProgressBar
+        android:id="@+id/recProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:layout_marginTop="3.0dip"
+        android:max="100"
+        android:progress="0"
+        android:secondaryProgress="10"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/lView"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/testbtn"
+            android:layout_width="300.0px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10.0px"
+            android:layout_marginRight="10.0px"
+            android:text="测试" />
+
+        <Button
+            android:id="@+id/recbtn"
+            android:layout_width="300.0px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10.0px"
+            android:layout_marginLeft="10.0px"
+            android:text="记录" />
+
+        <EditText
+            android:id="@+id/editAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/testbtn"
+            android:layout_alignLeft="@+id/recbtn"
+            android:layout_marginBottom="15.0px"
+            android:ems="10" />
+    </RelativeLayout>
+
+</LinearLayout>
